@@ -24,6 +24,10 @@ app.use(rateLimiter);
 
 app.use('/api/auth', authRoutes);
 
+app.use('/', (req,res) => {
+  res.json({message:"API IS RUNNING"})
+});
+
 // Error handling
 app.use((err, req, res, next) => {
     res.status(err.status || 500).json({ error: err.message || 'Server Error' });
