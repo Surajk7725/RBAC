@@ -19,8 +19,6 @@ This project implements a secure and scalable **Authentication and Role-Based Ac
 - **express-validator** for input validation  
 - **express-rate-limiter** for request limiting   
 
----
-
 ## Features  
 
 ### Authentication  
@@ -40,14 +38,10 @@ This project implements a secure and scalable **Authentication and Role-Based Ac
 - Validation of user inputs on both client and server sides.  
 - Rate-limiting and protection against common vulnerabilities like XSS and CSRF.  
 
----
-
 ## Deployment  
 
 ### Frontend  
 Deployed on **Vercel**: [Frontend Deployment Link](https://rbac-1.vercel.app/)  
 
 ### Backend  
-Deployed on **Vercel**: [Backend Deployment Link](https://rbac-suraj.vercel.app/)  
-
----
+Deployed on **Vercel**: [Backend Deployment Link](https://rbac-suraj.vercel.app/)
