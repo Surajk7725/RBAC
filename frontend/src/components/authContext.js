@@ -14,3 +14,5 @@ export const AuthProvider = ({ children }) => {
         </AuthContext.Provider>
     );
 };
+
+// It is related for Role-based and Page Routing Security Authentication
