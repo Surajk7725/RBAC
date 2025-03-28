@@ -38,10 +38,20 @@ This project implements a secure and scalable **Authentication and Role-Based Ac
 - Validation of user inputs on both client and server sides.  
 - Rate-limiting and protection against common vulnerabilities like XSS and CSRF.  
 
+## Preparation Notes  
+
+Before deploying the system, ensure the following:  
+- **Environment Variables**: Set up `.env` files for secure storage of API keys, database URIs, and JWT secrets.  
+- **Database Connection**: Verify MongoDB Atlas or local database configurations.  
+- **CORS Setup**: Ensure proper CORS settings for secure API communication.  
+- **Error Handling**: Implement logging and error-handling mechanisms.  
+
+Click [here](https://phantom-limburger-d0f.notion.site/Role-Based-Access-Control-RBAC-1c3423b247c5804d9835df8f0daeac6a) for detailed preparation guidelines.  
+
 ## Deployment  
 
 ### Frontend  
 Deployed on **Vercel**: [Frontend Deployment Link](https://rbac-1.vercel.app/)  
 
 ### Backend  
-Deployed on **Vercel**: [Backend Deployment Link](https://rbac-suraj.vercel.app/)
+Deployed on **Vercel**: [Backend Deployment Link](https://rbac-suraj.vercel.app/)  
